@@ -1,0 +1,3 @@
+rm hello*
+rm test
+

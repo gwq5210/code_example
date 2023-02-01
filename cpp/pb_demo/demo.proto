@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example;
+
+// 停用词集合
+message Document {
+  string global_id = 1;
+  string title = 2;
+  string content = 3;
+  double score = 4;
+}
