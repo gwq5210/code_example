@@ -1,0 +1,2 @@
+rm pure_virtual_destructor print_vptr virtual_destructor
+
