@@ -1,0 +1,1 @@
+rm single_inheritance multiple_inheritance multiple_inheritance2 virtual_inheritance virtual_inheritance2 simple_virtual_inheritance
