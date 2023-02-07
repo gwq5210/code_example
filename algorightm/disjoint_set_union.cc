@@ -3,9 +3,9 @@
 #include <algorithm>
 #include <numeric>
 
-class UnionFind {
+class DisjointSetUnion {
  public:
-  UnionFind(int n) : parents_(n) {
+  DisjointSetUnion(int n) : parents_(n) {
     std::iota(parents_.begin(), parents_.end(), 0);
   }
 
