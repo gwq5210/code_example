@@ -14,6 +14,7 @@ class DisjointSetUnion {
   }
 
   void Union(int x, int y) {
+    // 将y所属的集合的父节点设置为x的父节点
     parents_[Find(y)] = Find(x);
   }
 
